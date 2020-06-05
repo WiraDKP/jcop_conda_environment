@@ -1,0 +1,66 @@
+name: jcop
+
+channels:
+- conda-forge
+- anaconda 
+- pytorch
+
+dependencies:
+# Essential
+"python",
+"nb_conda_kernels",
+"pip",
+"ipython",
+"tqdm",
+# Data Science
+"numpy",
+"scipy",
+"pandas",
+# Machine Learning
+"scikit-learn",
+"statsmodels",
+"scikit-surprise",
+"umap-learn",
+"fbprophet",
+# Visualization
+"matplotlib",
+"seaborn",
+"ipywidgets",
+"plotly",
+"networkx",
+# NLP
+"nltk",
+"gensim",
+"torchtext",
+# Deep Learning
+"pytorch",
+# Computer Vision
+"torchvision",
+"pillow",
+# Clustering
+"pyclustering",
+# Scraping
+"beautifulsoup4",
+"selenium",
+# Database
+"psycopg2",
+# REST API
+"flask",
+"flask-cors",
+"python-dotenv",
+
+- pip:
+  # Machine Learning
+  "xgboost",
+  "scikit-optimize",
+  "pmdarima",
+  "jcopml",
+  "luwiji",
+  # Deep Learning
+  "jcopdl",
+  # Clustering
+  "kmodes",
+  # Computer Vision
+  "opencv-python",
+  # Reinforcement Learning
+  "gym",
