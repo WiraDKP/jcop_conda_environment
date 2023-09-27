@@ -35,6 +35,7 @@ dependencies:
 - plotly==5.17.0
 # Deep Learning
 - pytorch==2.0.1
+- lightning==2.0.9
 - transformers==4.33.1
 # Computer Vision
 - torchvision==0.15.2
