@@ -49,6 +49,7 @@ dependencies:
 # Scraping
 - beautifulsoup4==4.12.2
 - selenium==4.12.0
+- pyperclip==1.8.2
 # Database
 - psycopg2==2.9.7
 - sqlmodel==0.0.8
