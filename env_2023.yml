@@ -30,7 +30,7 @@ dependencies:
 - scikit-optimize==0.9.0
 - umap-learn==0.5.4
 # Visualization
-- matplotlib==3.8.0
+- matplotlib==3.7.3
 - seaborn==0.12.2
 - plotly==5.17.0
 # Deep Learning
