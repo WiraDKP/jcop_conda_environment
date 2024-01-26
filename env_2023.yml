@@ -8,7 +8,7 @@ channels:
 
 dependencies:
 # Essential
-- python==3.11.4
+- python==3.11.0
 - pip==23.2.1
 - tqdm==4.66.1
 - python-dotenv==1.0.0
@@ -52,8 +52,8 @@ dependencies:
 - selenium==4.12.0
 - pyperclip==1.8.2
 # Database
-- psycopg2==2.9.7
-- sqlmodel==0.0.8
+- psycopg2==2.9.3
+- sqlmodel==0.0.14
 # API
 - requests==2.31.0
 - fastapi==0.103.0
